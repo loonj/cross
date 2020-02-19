@@ -7,6 +7,15 @@ public class Student {
     private Integer sex;
     private Integer height;
     private Integer weight;
+    private String ident;
+
+    public String getIdent() {
+        return ident;
+    }
+
+    public void setIdent(String ident) {
+        this.ident = ident;
+    }
 
     public Integer getWeight() {
         return weight;
