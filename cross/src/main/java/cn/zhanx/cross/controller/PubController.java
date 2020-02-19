@@ -55,9 +55,9 @@ public class PubController {
     public JSONObject hello4(@RequestParam("height") int height){
         Map<String, Object> resultMap = new HashMap<String, Object>();
         resultMap.put("name", "张三丰");
-        resultMap.put("age", 28);
+        resultMap.put("age", 68);
         resultMap.put("sex", "male");
-        resultMap.put("education", "大学本科");
+        resultMap.put("education", "大学硕士");
         resultMap.put("height",height);
         resultMap.put("address", new String[]{"地址一","地址二","地址三","地址四"});
         JSONObject jsonObject=new JSONObject(resultMap);
