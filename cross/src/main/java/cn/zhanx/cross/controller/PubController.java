@@ -19,8 +19,8 @@ public class PubController {
         //这里写自己的逻辑过程
         //前端传过来的回调函数名称
         Map<String, Object> resultMap = new HashMap<String, Object>();
-        resultMap.put("name", "张三");
-        resultMap.put("age", 18);
+        resultMap.put("name", "张三丰");
+        resultMap.put("age", 19);
         resultMap.put("sex", "male");
         resultMap.put("address", new String[]{"地址1","地址2","地址3"});
         //用回调函数名称包裹返回数据，这样，返回数据就作为回调函数的参数传回去了，callback()这个（）里面放的是json格式
