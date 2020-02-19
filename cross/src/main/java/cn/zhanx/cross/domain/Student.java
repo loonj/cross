@@ -6,6 +6,15 @@ public class Student {
     private Integer age;
     private Integer sex;
     private Integer height;
+    private Integer weight;
+
+    public Integer getWeight() {
+        return weight;
+    }
+
+    public void setWeight(Integer weight) {
+        this.weight = weight;
+    }
 
     public Integer getHeight() {
         return height;
