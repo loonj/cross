@@ -5,6 +5,15 @@ public class Student {
     private String name;
     private Integer age;
     private Integer sex;
+    private Integer height;
+
+    public Integer getHeight() {
+        return height;
+    }
+
+    public void setHeight(Integer height) {
+        this.height = height;
+    }
 
     public String getName() {
         return name;
