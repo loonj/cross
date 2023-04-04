@@ -47,6 +47,7 @@ public class PubController {
         jsonObj.put("id",jsonObject.get("id").toString());
         jsonObj.put("name","李思涵");
         jsonObj.put("address",new String[]{"地址一","地址二","地址三"});
+        System.out.println("hello3 run...");
         return jsonObj;
         //return  jsonObj.toJSONString(); 如果函数返回类型是String
     }
